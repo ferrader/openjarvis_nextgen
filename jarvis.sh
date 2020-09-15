@@ -94,8 +94,11 @@ audiofile="$jv_cache_folder/jarvis-record.wav"
 forder="$jv_cache_folder/jarvis-order"
 jv_say_queue="$jv_cache_folder/jarvis-say"
 
-if [ -f "$jv_dir/plugins/jarvis-store.json" ];then
-        cp "$jv_dir/jarvis-store.json" "$jv_cache_folder/jarvis-store.json"
+if [ -f "$jv_cache_folder/jarvis-store.json" ];then
+    echo "store updated"	
+else
+	cp "$jv_dir/jarvis-store.json" "$jv_cache_folder/jarvis-store.json"
+
 fi
 
 jv_store_file="$jv_cache_folder/jarvis-store.json"
@@ -106,7 +109,6 @@ if [ ! -d "plugins_installed" ]; then
         mv plugins plugins_installed 2>/dev/null
     else
         mkdir "plugins_installed"
-		cp "$jv_cache_folder/jarvis-store.json" "$jv_dir/plugins_installed/jarvis-store.json"
     fi
 fi
 if [ ! -d "plugins_enabled" ]; then
@@ -115,6 +117,8 @@ if [ ! -d "plugins_enabled" ]; then
         jv_plugin_enable "$plugin"
     done
 fi
+
+cp "$jv_cache_folder/jarvis-store.json" "$jv_dir/plugins_installed/jarvis-store.json"
 
 # default flags, use options to change see jarvis.sh -h
 quiet=false
