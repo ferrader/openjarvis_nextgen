@@ -23,7 +23,8 @@ See [Requirements](http://openjarvis.com/content/prerequisites).
 ```shell
 $> git clone https://github.com/ferrader/openjarvis_nextgen.git
 $> cd openjarvis_nextgen/
-$> ./jarvis.sh -i
+$> chmod 755 jarvis.sh/
+$> ./jarvis.sh
 ```
 
 In progress (old site)
