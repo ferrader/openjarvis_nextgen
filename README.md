@@ -1,7 +1,12 @@
+Hello, 
+
+Here the fork of the OpenJarvis.
+
 # Jarvis [![Version-shield]](CHANGELOG.md) ![Build-shield] [![Plugins-shield]](http://openjarvis.com/top-plugins)
 
 [![Banner]](http://openjarvis.com/)
 
+In progress (old site)
 > Overview & full documentation available on http://openjarvis.com/
 
 Jarvis.sh is a lightweight configurable multi-lang voice assistant  
@@ -16,10 +21,12 @@ Languages supported (for voice recognition and speech synthesis):
 
 See [Requirements](http://openjarvis.com/content/prerequisites).
 ```shell
-$> git clone https://github.com/alexylem/jarvis.git
-$> cd jarvis/
+$> git clone https://github.com/ferrader/openjarvis_nextgen.git
+$> cd openjarvis_nextgen/
 $> ./jarvis.sh -i
 ```
+
+In progress (old site)
 >More info on the site [installation page](http://openjarvis.com/content/installation).
 
 ### Usage
@@ -56,6 +63,7 @@ $> jarvis -h
 
 ### Support
 
+In progress (old site)
 http://openjarvis.com/content/support
 
 ### License
