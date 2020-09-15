@@ -94,8 +94,10 @@ audiofile="$jv_cache_folder/jarvis-record.wav"
 forder="$jv_cache_folder/jarvis-order"
 jv_say_queue="$jv_cache_folder/jarvis-say"
 
-cp "$jv_dir/plugins/jarvis-store.json" "$jv_cache_folder/jarvis-store.json"
-jv_store_file="$jv_cache_folder/jarvis-store.json"
+if [ -f "$jv_dir/plugins/jarvis-store.json" ];then
+        cp "$jv_dir/plugins/jarvis-store.json" "$jv_cache_folder/jarvis-store.json"
+        jv_store_file="$jv_cache_folder/jarvis-store.json"
+fi
 
 rm -f $audiofile # sometimes, when error, previous recording is played
 if [ ! -d "plugins_installed" ]; then
