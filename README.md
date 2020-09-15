@@ -2,7 +2,7 @@ Hello,
 
 Here the fork of the OpenJarvis name OpenJarvis_NextGen.The goal of this fork is to provide a working jarvis and to share improvments.
 
-# Jarvis [![Version-shield]](CHANGELOG.md) ![Build-shield] [![Plugins-shield]](http://openjarvis.com/top-plugins)
+# Jarvis [![Version](https://img.shields.io/badge/version-2.0.1-yellow.svg)](CHANGELOG.md) ![Build-shield] [![Plugins-shield]](http://openjarvis.com/top-plugins)
 
 [![Banner]](http://openjarvis.com/)
 
