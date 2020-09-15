@@ -118,8 +118,6 @@ if [ ! -d "plugins_enabled" ]; then
     done
 fi
 
-cp "$jv_cache_folder/jarvis-store.json" "$jv_dir/plugins_installed/jarvis-store.json"
-
 # default flags, use options to change see jarvis.sh -h
 quiet=false
 verbose=false
