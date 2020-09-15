@@ -1,0 +1,13 @@
+*AIDE*==jv_display_commands
+*BONJOUR*|*SALUT*==say "Bonjour $username"
+*COMMENT*APPELLE*==say "Je m'appelle $trigger"
+*MERCI*==say "De rien"
+*AU REVOIR*|*BYE*==say "Au revoir $username"; jv_exit
+ANNULE*|TERMINE*==bypass=false; say "Ok"
+ENCORE*==jv_repeat_last_command
+*TEST*==say "Ca fonctionne!"
+*VERSION*==say "Je suis en version $jv_version"
+*REPETE (*) ET (*)==say "(1) (2)"
+*CA VA*==say "Très bien et toi ça va?"
+>*OUI*==say "ravi de l'entendre"
+>*NON*|*PAS*==say "j'en suis navré"
