@@ -95,8 +95,9 @@ forder="$jv_cache_folder/jarvis-order"
 jv_say_queue="$jv_cache_folder/jarvis-say"
 
 if [ -f "$jv_dir/plugins/jarvis-store.json" ];then
-        cp "$jv_dir/plugins/jarvis-store.json" "$jv_cache_folder/jarvis-store.json"
+        cp "$jv_dir/jarvis-store.json" "$jv_cache_folder/jarvis-store.json"
 fi
+
 jv_store_file="$jv_cache_folder/jarvis-store.json"
 
 rm -f $audiofile # sometimes, when error, previous recording is played
@@ -105,6 +106,7 @@ if [ ! -d "plugins_installed" ]; then
         mv plugins plugins_installed 2>/dev/null
     else
         mkdir "plugins_installed"
+		cp "$jv_cache_folder/jarvis-store.json" "$jv_dir/plugins_installed/jarvis-store.json"
     fi
 fi
 if [ ! -d "plugins_enabled" ]; then
