@@ -1,4 +1,3 @@
-- 15SEP20 Fork to revive the project
 - 11MAY17 Use jarvis instead of ./jarvis.sh https://github.com/alexylem/jarvis/issues/604
 - 09MAY17 Experimental bluetooth support https://github.com/alexylem/jarvis/issues/200
 - 06MAY17 Update script for plugins https://github.com/alexylem/jarvis/issues/581
