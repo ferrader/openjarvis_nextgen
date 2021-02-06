@@ -4,9 +4,11 @@ Here the fork of the OpenJarvis name OpenJarvis_NextGen.The goal of this fork is
 
 What it's work:
 
--Recongition of hotword by snowboy
-
 -Recognition of speechtotext with wit.ai
+-Plugins Store
+
+What in progress
+- replacement of Snowboy for hotword
 
 # Jarvis [![Version](https://img.shields.io/badge/version-2.0.1-yellow.svg)](CHANGELOG.md) ![Build-shield] [![Plugins-shield]](http://openjarvis.com/top-plugins)
 
