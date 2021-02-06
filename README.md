@@ -5,6 +5,7 @@ Here the fork of the OpenJarvis name OpenJarvis_NextGen.The goal of this fork is
 What it's work:
 
 -Recognition of speechtotext with wit.ai
+
 -Plugins Store
 
 What in progress
